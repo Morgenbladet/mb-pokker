@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "intro": "Du har en ilder i hus og er litt oppgitt over den. Hva sier du?",
+    "alternatives": [
+      {
+        "text": "Forpulte ilderfaen.",
+        "age": 25,
+        "geo": null,
+        "edu": 10,
+        "sex": null
+      },
+      {
+        "text": "Forpulte ilderfaen. Fitte."
+      },
+      {
+        "text": "Dumme ilderfaen. Æsj."
+      },
+      {
+        "text": "Jævla forpulte ilderfittefaen."
+      },
+      {
+        "Dumme, dumme ilder."
+      }
+    ]
+  }
+]
