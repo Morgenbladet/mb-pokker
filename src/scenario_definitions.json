@@ -5,22 +5,31 @@
     "alternatives": [
       {
         "text": "Forpulte ilderfaen.",
-        "age": 25,
-        "geo": null,
-        "edu": 10,
-        "sex": null
+        "age": 25, "geo": 20, "edu": 10, "sex": 50
       },
       {
-        "text": "Forpulte ilderfaen. Fitte."
+        "text": "Forpulte ilderfaen. Fitte.",
+        "age": 25, "geo": 25, "edu": 10, "sex": 0
       },
       {
-        "text": "Dumme ilderfaen. Æsj."
+        "text": "Herregud, din dusteilder!",
+        "age": 35, "geo": 0, "edu": 30, "sex": 100
       },
       {
-        "text": "Jævla forpulte ilderfittefaen."
+        "text": "Din slogsatan av en fettoter!",
+        "age": 50, "geo": 85, "edu": 20, "sex": 30
       },
       {
-        "text": "Dumme, dumme ilder."
+        "text": "Helvetes forpulte ilderfittefaen.",
+        "age": 25, "geo": 50, "edu": 10, "sex": 0
+      },
+      {
+        "text": "Fy, du er en rabagast av en bornert gnager!",
+        "age": 85, "geo": 10, "edu": 100, "sex": null
+      },
+      {
+        "text": "Dumme, dumme ilder!",
+        "age": 45, "geo": 10, "edu": 75, "sex": null
       }
     ]
   }

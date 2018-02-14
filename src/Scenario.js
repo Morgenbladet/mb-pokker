@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Alternative from './Alternative.js';
+import shuffleArray from './shuffle_array.js';
 
 class Scenario extends Component {
   constructor(props) {
@@ -14,12 +15,15 @@ class Scenario extends Component {
   render() {
     let scen = this.props.scen;
     return (
-      <div className="scenario">
         <p className="intro">
           { scen.intro }
         </p>
         <ul className="alternatives">
-          { scen.alternatives.map((alt, index) => <Alternative key={ index } config={ alt } choiceMade={ this.updateScore }/> ) }
+          {
+            shuffleArray(scen.alternatives).map( (alt, index) =>
+              <Alternative key={ index } config={ alt } choiceMade={ this.updateScore } />
+            )
+          }
         </ul>
       </div>
     )
