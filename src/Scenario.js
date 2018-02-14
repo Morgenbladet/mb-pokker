@@ -4,16 +4,22 @@ import Alternative from './Alternative.js';
 class Scenario extends Component {
   constructor(props) {
     super(props);
+    this.updateScore = this.updateScore.bind(this);
+  }
+
+  updateScore(alternative) {
+    this.props.updateScore(alternative);
   }
 
   render() {
+    let scen = this.props.scen;
     return (
       <div className="scenario">
         <p className="intro">
-          { this.props.intro }
+          { scen.intro }
         </p>
         <ul className="alternatives">
-          { this.props.alternatives.map( alt => <Alternative key={ alt.id } config={ alt.config } /> ) }
+          { scen.alternatives.map((alt, index) => <Alternative key={ index } config={ alt } choiceMade={ this.updateScore }/> ) }
         </ul>
       </div>
     )
