@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Scenario from './Scenario.js';
+import ResultScreen from './ResultScreen.js';
 import scenario_definitions from './scenario_definitions.json';
 
 class App extends Component {
@@ -89,11 +90,11 @@ class App extends Component {
     } else if (this.finished()) {
       return (
         <div className="app">
-          Age: { this.age() }
-          Geo: { this.geo() }
-          Sex: { this.sex() }
-          Edu: { this.edu () }
-          <p>Du er ferdig og her skal vi lage en resultatskjerm.</p>
+          <ResultScreen
+            age={ this.age() }
+            geo={ this.geo() }
+            sex={ this.sex() }
+            edu={ this.edu() } />
           <button onClick={ this.init }>Begynn på nytt</button>
         </div>
       );
