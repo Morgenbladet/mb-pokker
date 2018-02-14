@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Alternative from './Alternative.js';
+import './Scenario.css';
 import shuffleArray from './shuffle_array.js';
 
 class Scenario extends Component {
@@ -15,6 +16,7 @@ class Scenario extends Component {
   render() {
     let scen = this.props.scen;
     return (
+      <div className="Scenario">
         <p className="intro">
           { scen.intro }
         </p>
