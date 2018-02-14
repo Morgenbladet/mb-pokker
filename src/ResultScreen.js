@@ -78,10 +78,10 @@ class ResultScreen extends Component {
 		}
 
 		let results = [
-			<Result prefix="en " variable={ this.age() } suffix=" år gammel" />,
-			<Result variable={ this.sex() } />,
-			<Result prefix="fra " variable={ this.geo() } />,
-			<Result prefix="med " variable={ this.edu() } />
+			<Result key="1" prefix="en " variable={ this.age() } suffix=" år gammel" />,
+			<Result key="2" variable={ this.sex() } />,
+			<Result key="3" prefix="fra " variable={ this.geo() } />,
+			<Result key="4" prefix="med " variable={ this.edu() } />
 		]
 		return(
 			<div className="ResultScreen">
