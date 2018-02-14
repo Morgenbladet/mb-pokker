@@ -13,9 +13,11 @@ class Alternative extends Component {
 
   render() {
     return(
-      <button className="alternative" onClick={ this.handleClick }>
-        { this.props.config.text }
-      </button>
+      <li>
+        <button className="alternative" onClick={ this.handleClick }>
+          { this.props.config.text }
+        </button>
+      </li>
     );
   }
 }
