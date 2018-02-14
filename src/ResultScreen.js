@@ -17,7 +17,9 @@ class ResultScreen extends Component {
 		if(! (Array.isArray(p) && Array.isArray(q) && q.length === p.length)) {
 			throw Error('Arguments must be arrays of equal length');
 		}
-		return Math.sqrt(p.map((item, i) => (item - q[i])**2).reduce((acc, curr) => acc + curr));
+		return Math.sqrt(p
+			.map((item, i) => (item - q[i])**2)
+			.reduce((acc, curr) => acc + curr));
 	}
 
 	age() {
@@ -43,7 +45,7 @@ class ResultScreen extends Component {
 		let range = 71-57;
 		let pos = 57 + range * (this.props.geo / 100.0);
 
-		return "" + pos + " breddegrad";
+		return "" + pos + ". breddegrad";
 	}
 
 	edu() {
@@ -64,9 +66,26 @@ class ResultScreen extends Component {
 	}
 
 	render() {
+		function Result(props) {
+			return (
+				<span>
+					{ props.prefix }
+					<strong>{ props.variable }</strong>
+					{ props.suffix }
+					{ ' ' }
+				</span>
+			);
+		}
+
+		let results = [
+			<Result prefix="en " variable={ this.age() } suffix=" år gammel" />,
+			<Result variable={ this.sex() } />,
+			<Result prefix="fra " variable={ this.geo() } />,
+			<Result prefix="med " variable={ this.edu() } />
+		]
 		return(
 			<div className="ResultScreen">
-				<p>Du banner som en <strong>{ this.age() }</strong> år gammel <strong>{ this.sex() }</strong> fra <strong>{ this.geo() }</strong> med <strong>{ this.edu() }</strong>.</p>
+				<p>Du banner som en { results }.</p>
 			</div>
 		);
 	}
