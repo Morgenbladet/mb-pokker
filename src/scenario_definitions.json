@@ -2,13 +2,14 @@
   {
     "id": 1,
     "intro": "Du har en ilder i hus og er litt oppgitt over den. Hva sier du?",
+    "image": "ferret",
     "alternatives": [
       {
-        "text": "Forpulte ilderfaen.",
+        "text": "Forpulte ilderfaen!",
         "age": 25, "geo": 20, "edu": 10, "sex": 50
       },
       {
-        "text": "Forpulte ilderfaen. Fitte.",
+        "text": "Forpulte ilderfaen. Fitte!",
         "age": 25, "geo": 25, "edu": 10, "sex": 0
       },
       {
@@ -24,11 +25,54 @@
         "age": 25, "geo": 50, "edu": 10, "sex": 0
       },
       {
-        "text": "Fy, du er en rabagast av en bornert gnager!",
+        "text": "Akk, du er en rabagast av en bornert gnager!",
         "age": 85, "geo": 10, "edu": 100, "sex": null
       },
       {
         "text": "Dumme, dumme ilder!",
+        "age": 45, "geo": 10, "edu": 75, "sex": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "intro": "Du går i skogen for deg selv og aner fred og ingen fare når en kvist treffer deg i øyet. Hva roper du?",
+    "image": "skog",
+    "alternatives": [
+      {
+        "text": "Fordømt!",
+        "age": 65, "geo": 20, "edu": 70, "sex": null
+      },
+      {
+        "text": "Helvete!",
+        "age": 25, "geo": 25, "edu": 10, "sex": 0
+      },
+      {
+        "text": "Hælvete!",
+        "age": 35, "geo": 0, "edu": 30, "sex": 100
+      },
+      {
+        "text": "Gudameg, denne svartoren har mye sevje!",
+        "age": 80, "geo": 25, "edu": 90, "sex": 100
+      },
+      {
+        "text": "Hestpeis!",
+        "age": 25, "geo": 50, "edu": 10, "sex": 0
+      },
+      {
+        "text": "Faen ass!",
+        "age": 85, "geo": 10, "edu": 100, "sex": null
+      },
+      {
+        "text": "Føkkings grandrit!",
+        "age": 45, "geo": 10, "edu": 75, "sex": null
+      },
+      {
+        "text": "Nei, gosh!",
+        "age": 45, "geo": 10, "edu": 75, "sex": null
+      },
+      {
+        "text": "Takk og lov for at jeg bruker briller!",
         "age": 45, "geo": 10, "edu": 75, "sex": null
       }
     ]

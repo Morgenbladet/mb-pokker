@@ -1,28 +1,24 @@
 .App {
   text-align: center;
+  font-family: 'Mercury Text G2', 'Georgia', serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App button {
+  background: white;
+  border: 1px solid #cf1616;
+  border-radius: 4px;
+  padding: 1em 1em 0.6em 1em;
+  font-family: 'Founders Grotesk Condensed';
+  text-transform: uppercase;
+  font-size: 18px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.App button:hover {
+  background: rgba(207, 16, 16, 0.1);
 }
-
-.App-title {
-  font-size: 1.5em;
+.App button:active {
+  box-shadow: inset 0 0 5px black;
 }
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App button:focus {
+  outline: 0;
+  border: 1px solid #cf1616;
 }

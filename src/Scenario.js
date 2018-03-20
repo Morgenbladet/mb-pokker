@@ -17,6 +17,9 @@ class Scenario extends Component {
     let scen = this.props.scen;
     return (
       <div className="Scenario">
+        <p className="image">
+          <img src={this.props.image.image} alt={this.props.image.alt} />
+        </p>
         <p className="intro">
           { scen.intro }
         </p>
@@ -27,6 +30,9 @@ class Scenario extends Component {
             )
           }
         </ul>
+        <div className="photo-credit">
+          Illustrasjon: {this.props.image.credit}
+        </div>
       </div>
     )
   }

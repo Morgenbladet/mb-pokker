@@ -3,6 +3,7 @@ import './App.css';
 import Scenario from './Scenario.js';
 import ResultScreen from './ResultScreen.js';
 import scenario_definitions from './scenario_definitions.json';
+import images from './image_definitions.js';
 
 class App extends Component {
   constructor(props) {
@@ -36,7 +37,7 @@ class App extends Component {
   }
 
   loadScenarios() {
-    return(scenario_definitions.map((scen) => <Scenario key={ scen.id } scen={ scen } updateScore={ this.updateScore }/>));
+    return(scenario_definitions.map((scen) => <Scenario key={ scen.id } scen={ scen } image={ images[scen.image] } updateScore={ this.updateScore }/>));
   }
 
   // Methods
@@ -82,14 +83,15 @@ class App extends Component {
   render() {
     if (! this.begun()) {
       return (
-        <div className="app">
-          <p>En interessant velkommen-tekst her.</p>
+        <div className="App">
+          <h1>Bannetesten</h1>
+          <p>Vis meg dine banneord, og jeg skal si deg hvem faen du tror du er.</p>
           <button onClick={ this.beginTest }>Start testen!</button>
         </div>
       );
     } else if (this.finished()) {
       return (
-        <div className="app">
+        <div className="App">
           <ResultScreen
             age={ this.age() }
             geo={ this.geo() }
@@ -102,7 +104,7 @@ class App extends Component {
       let id = this.state.current_scenario;
 
       return (
-        <div className="app">
+        <div className="App">
           { this.scenarios[id] }
         </div>
       );

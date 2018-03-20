@@ -1,9 +1,24 @@
 .Scenario ul {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
-
+.Scenario li {
+	margin: 0;
+	display: inline-block;
+	width: 40%;
+	padding: 0.75em;
+}
+.Scenario .image img {
+	width: 150px;
+}
+.Scenario .photo-credit {
+	color: #ccc;
+	font-size: 10px;
+}
 .Scenario button {
-	background: none;
-	border: none;
-	border-bottom: 2px solid #e63332;
+	width: 100%;
+	display: inline-block;
+	text-transform: none;
+	padding: 1em;
 }
