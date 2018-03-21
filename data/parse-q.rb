@@ -35,7 +35,7 @@ class Alternative
   end
 end
 
-file = "Faen - Ark 1.csv"
+file = ARGV[0]
 
 lines = CSV.read(file, converters: [:integer])
 
@@ -61,5 +61,5 @@ lines.each do |line|
   end
 end
 
-puts JSON.generate(questions)
+puts JSON.generate(questions.shuffle)
 
