@@ -5,12 +5,13 @@
 
 .App button {
   background: white;
-  border: 1px solid #cf1616;
+  border: 2px solid #cf1616;
   border-radius: 4px;
   padding: 1em 1em 0.6em 1em;
   font-family: 'Founders Grotesk Condensed';
   text-transform: uppercase;
   font-size: 18px;
+  box-shadow: 2px 2px 5px black;
 }
 .App button:hover {
   background: rgba(207, 16, 16, 0.1);
@@ -21,4 +22,8 @@
 .App button:focus {
   outline: 0;
   border: 1px solid #cf1616;
+}
+.App .number {
+  font-family: 'Founders Grotesk Condensed';
+  font-size: 14px;
 }

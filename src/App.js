@@ -105,6 +105,9 @@ class App extends Component {
 
       return (
         <div className="App">
+          <p className="number">
+            { this.state.current_scenario + 1 } av { this.scenarios.length }
+          </p>
           { this.scenarios[id] }
         </div>
       );
