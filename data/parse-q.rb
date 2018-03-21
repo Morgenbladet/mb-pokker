@@ -13,7 +13,7 @@ class Question
     {
       id: self.id,
       intro: self.intro,
-      image: "ferret",
+      image: self.image,
       alternatives: self.alternatives
     }.to_json
   end
@@ -56,6 +56,7 @@ lines.each do |line|
     current = Question.new
     current.id = id
     current.intro = line[0]
+    current.image = line[1]
   else
     current.alternatives << Alternative.new(*line)
   end

@@ -1,4 +1,4 @@
-"Du er med i et realityshow, for eksempel Big Brother. En person du liker, entrer rommet. Vedkommende bruker ofte ordet «fuck», og nå ønsker du å være imponere. Hva sier du?",,,,
+"Du er med i et realityshow, for eksempel Big Brother. En person du liker, entrer rommet. Vedkommende bruker ofte ordet «fuck», og nå ønsker du å være imponere. Hva sier du?",camera,,,
 Fuck!,,,10,50
 Fuck you! Fuck you!,,,,50
 Faen ta deg!,,,,0
@@ -8,28 +8,28 @@ Faen!,,,,50
 "Herregud, så hyggelig å se deg!",,,80,80
 ,,,,
 ,,,,
-"Du er stemt ut av et realityshow og må nå forlate de andre. Du er på rommet og pakker kofferten. Den er full, og du sliter med å få igjen glidelåsen. Hva sier du?",,,,
+"Du er stemt ut av et realityshow og må nå forlate de andre. Du er på rommet og pakker kofferten. Den er full, og du sliter med å få igjen glidelåsen. Hva sier du?",suitcase,,,
 Faens drit.,40,,20,
 Fuck. Skal vi se …,30,,40,
 Æsj. Skal vi se …,60,,100,
 Serr?,15,30,20,
 Hekkan,,10,60,
 ,,,,
-Du skal æreskjelle en person. Hvordan velger du å beskrive vedkommende?,,,,
+Du skal æreskjelle en person. Hvordan velger du å beskrive vedkommende?,cow,,,
 "«Udugelig, inkompetent og teit.»",50,,50,
 "«Udugelig, inkompetent og bornert.»",80,30,100,
 «Ubrukelig og føkkings føkkings.»,10,,0,
 Din fete ku!,34,40,20,
 Din dumme rasstapp!,21,90,,
 ,,,,
-Du spiller kort og synes det går litt dårlig. Hva sier du til motstanderen?,,,,
+Du spiller kort og synes det går litt dårlig. Hva sier du til motstanderen?,cards,,,
 "Fuck you, din jævla idiot!",10,,0,0
 Faen ta deg!,40,,30,50
 "Føkk, så dum jeg var!",25,,30,100
 "Fillern, så klosset av meg!",70,,100,100
 Lættis!,5,,,
 ,,,,
-Du har en ilder i hus og er litt oppgitt over den. Hva sier du?,,,,
+Du har en ilder i hus og er litt oppgitt over den. Hva sier du?,ferret,,,
 Forpulte ilderfaen.,,,,30
 Forpulte ilderfaen. Fitte.,,,,50
 Dumme ilderfaen. Æsj.,,,,70
@@ -37,19 +37,19 @@ Jævla forpulte ilderfittefaen.,,,,0
 "Dumme, dumme ilder.",,,70,80
 "Herregud, få vekk den ilderen!",,,,100
 ,,,,
-"Du krangler med kjæresten, er oppgitt og vil be vedkommende om å bli med ut. Hva sier du?",,,,
+"Du krangler med kjæresten, er oppgitt og vil be vedkommende om å bli med ut. Hva sier du?",yell,,,
 "Men herregud, kan ikke du bare være med ut en tur?",,,,100
 "Kan du ikke bare bli med ut, da, for faen?",,,,0
 ,,,,
 ,,,,
 ,,,,
-Du sitter i sofaen og snakker med vennene dine og vil vise at du setter pris på dem. Hva sier du?,,,,
+Du sitter i sofaen og snakker med vennene dine og vil vise at du setter pris på dem. Hva sier du?,sex,,,
 Det er bra at vi kan snakke om sex og sånt.,18,,,70
 Det er gøy å ha folk du kan prate med om fitte og kuk og sånt.,18,,,0
 Det er fett at vi kan snakke om puling og de greiene der uten at det blir kleint.,18,,,30
 Det er fint at vi kan snakke så ubesværet om forplantning.,60,,100,70
 ,,,,
-Du oppdager romkamerat Eskild har tatt fiskekakene du skulle spise. Hva sier du til ham?,,,,
+Du oppdager romkamerat Eskild har tatt fiskekakene du skulle spise. Hva sier du til ham?,fridge,,,
 Det der synes jeg rett og slett var unødvendig!,80,,70,60
 Fy søder! Det var sjofelt!,50,0,30,
 Du kan ikke en dritt annet enn å snylte på folk!,15,,20,80
@@ -59,7 +59,7 @@ Du kan faen meg ikke noe annet enn å snylte!,35,,20,
 Je ska tæva dei så hardt at du får sjå Tingvoll fra en ugrei vinkel,,50,,20
 "Harru spist av bekenet mitt og, eller? Som jæ kjøpte i Sverige?",,40,,
 ,,,,
-Du går i skogen for deg selv og aner fred og ingen fare når en kvist treffer deg i øyet. Hva roper du?,,,,
+Du går i skogen for deg selv og aner fred og ingen fare når en kvist treffer deg i øyet. Hva roper du?,skog,,,
 Fordømt!,80,,70,20
 Helvete!,15,,10,40
 Gudameg! Svartoren har så mye sevje!,40,,70,100
@@ -70,7 +70,7 @@ Hestpeis!,40,100,,40
 Takk og lov for at jeg bruker briller!,50,,90,
 "Du, din kvist! Jeg skal knekke deg som en lus!",90,31,80,0
 ,,,,
-"Kenneth har fått seg ny bil, og du synes den er tøff. Hva sier du?",,,,
+"Kenneth har fått seg ny bil, og du synes den er tøff. Hva sier du?",car,,,
 "Dæffen steeeeiiike, Kenneth! Rå bil!",,90,,
 "Sava. Den var knalltøff, Kenneth!",,0,,
 "Salikatt! Den var jysla fin, Kenneth!",,10,,
