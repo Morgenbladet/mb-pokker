@@ -12,15 +12,15 @@ Faen!,,,,50
 Faens drit.,40,,20,
 Fuck. Skal vi se …,30,,40,
 Æsj. Skal vi se …,60,,100,
-Serr?,15,Østlandet,20,
-Hekkan,,Jæren,60,
+Serr?,15,30,20,
+Hekkan,,10,60,
 ,,,,
 Du skal æreskjelle en person. Hvordan velger du å beskrive vedkommende?,,,,
 "«Udugelig, inkompetent og teit.»",50,,50,
-"«Udugelig, inkompetent og bornert.»",80,"Oslo, Bergen",100,
+"«Udugelig, inkompetent og bornert.»",80,30,100,
 «Ubrukelig og føkkings føkkings.»,10,,0,
-Din fete ku!,34,Østfold (Rakkestad),20,
-Din dumme rasstapp!,21,Trøndelag,,
+Din fete ku!,34,40,20,
+Din dumme rasstapp!,21,90,,
 ,,,,
 Du spiller kort og synes det går litt dårlig. Hva sier du til motstanderen?,,,,
 "Fuck you, din jævla idiot!",10,,0,0
@@ -51,39 +51,39 @@ Det er fint at vi kan snakke så ubesværet om forplantning.,60,,100,70
 ,,,,
 Du oppdager romkamerat Eskild har tatt fiskekakene du skulle spise. Hva sier du til ham?,,,,
 Det der synes jeg rett og slett var unødvendig!,80,,70,60
-Fy søder! Det var sjofelt!,50,Sørlandet,30,
+Fy søder! Det var sjofelt!,50,0,30,
 Du kan ikke en dritt annet enn å snylte på folk!,15,,20,80
-Jeg foreslår at vi tar en samtale om eiendomsrett etter Dagsrevyen.,70,"Oslo, Bærum, Asker, Bergen, Trondheim",100,
+Jeg foreslår at vi tar en samtale om eiendomsrett etter Dagsrevyen.,70,30,100,
 Du kan faen meg ikke noe annet enn å snylte!,35,,20,
 "Men for faen, da. Jeg trenger ikke fiskekaker i morgen, jeg trenger fiskekaker nå!",15,,20,100
-Je ska tæva dei så hardt at du får sjå Tingvoll fra en ugrei vinkel,,Hedemarken,,20
-"Harru spist av bekenet mitt og, eller? Som jæ kjøpte i Sverige?",,Østfold,,
+Je ska tæva dei så hardt at du får sjå Tingvoll fra en ugrei vinkel,,50,,20
+"Harru spist av bekenet mitt og, eller? Som jæ kjøpte i Sverige?",,40,,
 ,,,,
 Du går i skogen for deg selv og aner fred og ingen fare når en kvist treffer deg i øyet. Hva roper du?,,,,
 Fordømt!,80,,70,20
 Helvete!,15,,10,40
 Gudameg! Svartoren har så mye sevje!,40,,70,100
-Hestpeis!,40,Nord,,40
+Hestpeis!,40,100,,40
 Æææææ!,20,,,60
 "Føkk, ass!",10,,0,
 "Nei, gosh!",60,,,100
 Takk og lov for at jeg bruker briller!,50,,90,
-"Du, din kvist! Jeg skal knekke deg som en lus!",90,Youngstorget,80,0
+"Du, din kvist! Jeg skal knekke deg som en lus!",90,31,80,0
 ,,,,
 "Kenneth har fått seg ny bil, og du synes den er tøff. Hva sier du?",,,,
-"Dæffen steeeeiiike, Kenneth! Rå bil!",,Trøndelag,,
-"Sava. Den var knalltøff, Kenneth!",,Sørlige Agder,,
-"Salikatt! Den var jysla fin, Kenneth!",,Rogaland,,
-"Næmen ka i helvete, Kenneth. Skjit du pænga?",,Nord,,
-"Føkkings fet bil, bror. Sverger.",20,Oslo øst,,
-"Faen, Kennethen, så fin bil du har fått deg! Skal du råne med jenten din?",,Bergen,,
-"Jævlig fiffig glis, Kenny! Sånn har jeg på Marbella!",60,Oslo vest,,
-Satan! Å mye gjør denna på flåa?,,Hedemarken,,
-"Herligland, Kenneth, den bilen var gjæææææærestolpe fin!",70,Sørlige Agder,,
-"Helsiken, Kenneth! Du har jo ikkje råd til den, din løk! Har du begynt med lakseoppdrett?",,Stord/Fitjar,,
-"Bannare bodl, har du betalt for han med eigne pengar?",,Årdal,,
-"Kræksli gild bil du har fått deg der, Kenneth!",,Arendal,,
-Koss hev du fengji råd til den der? Det er berre basadn som heve råd til slikt her omkring!,,Hallingdal / Hemsedal,,
+"Dæffen steeeeiiike, Kenneth! Rå bil!",,90,,
+"Sava. Den var knalltøff, Kenneth!",,0,,
+"Salikatt! Den var jysla fin, Kenneth!",,10,,
+"Næmen ka i helvete, Kenneth. Skjit du pænga?",,100,,
+"Føkkings fet bil, bror. Sverger.",20,30,,
+"Faen, Kennethen, så fin bil du har fått deg! Skal du råne med jenten din?",,70,,
+"Jævlig fiffig glis, Kenny! Sånn har jeg på Marbella!",60,30,,
+Satan! Å mye gjør denna på flåa?,,50,,
+"Herligland, Kenneth, den bilen var gjæææææærestolpe fin!",70,0,,
+"Helsiken, Kenneth! Du har jo ikkje råd til den, din løk! Har du begynt med lakseoppdrett?",,10,,
+"Bannare bodl, har du betalt for han med eigne pengar?",,80,,
+"Kræksli gild bil du har fått deg der, Kenneth!",,5,,
+Koss hev du fengji råd til den der? Det er berre basadn som heve råd til slikt her omkring!,,45,,
 ,,,,
 ,,,,
-"Saft suse! Knalltøff doning, kompis!",,Andeby (her kan vi ha det gøy med Andebu i Vestfold),,
+"Saft suse! Knalltøff doning, kompis!",,,,
