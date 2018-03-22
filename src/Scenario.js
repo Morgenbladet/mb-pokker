@@ -2,11 +2,16 @@ import React, { Component } from 'react';
 import Alternative from './Alternative.js';
 import './Scenario.css';
 import shuffleArray from './shuffle_array.js';
+import scrollIntoViewIfNeeded from 'scroll-into-view-if-needed';
 
 class Scenario extends Component {
   constructor(props) {
     super(props);
     this.updateScore = this.updateScore.bind(this);
+  }
+
+  componentDidMount() {
+    scrollIntoViewIfNeeded(document.getElementById("Apptop"), { duration: 100 });
   }
 
   updateScore(alternative) {

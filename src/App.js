@@ -85,6 +85,7 @@ class App extends Component {
     if (! this.begun()) {
       return (
         <div className="App">
+          <span id="Apptop"></span>
           <h1>Bannetesten</h1>
           <p>Vis meg dine banneord, og jeg skal si deg hvem faen du tror du er.</p>
           <button onClick={ this.beginTest }>Start testen!</button>
@@ -93,6 +94,7 @@ class App extends Component {
     } else if (this.finished()) {
       return (
         <div className="App">
+          <span id="Apptop"></span>
           <ResultScreen
             age={ this.age() }
             geo={ this.geo() }
@@ -106,6 +108,7 @@ class App extends Component {
 
       return (
         <div className="App">
+          <span id="Apptop"></span>
           <p className="number">
             { this.state.current_scenario + 1 } av { this.scenarios.length }
           </p>
