@@ -165,6 +165,11 @@ class ResultScreen extends Component {
 			<div className="ResultScreen">
         <h1>Du ble { this.getName() }</h1>
 				<p>Du banner som en { results }</p>
+        <hr/>
+        <p>Gratulerer! Nå har banningen fortalt deg hvem du er – i tilfelle du ikke visste det fra før. Slik har vi kommet frem til resultatet:</p>
+        <p>Bannetesten bruker data fra banneforskningen til å beregne kjønn, og her er det tydelige forskjeller. Grovt sett kan vi si at menn banner grovere enn kvinner. De bruker flere kjønnsuttrykk og har lettere for å ty til det vi gjerne oppfatter som stygge ord, slik som <em>faen</em> og <em>helvete</em>. Kvinner, derimot, velger oftere <em>herregud</em>, <em>gudameg</em> og andre ord som jevnt over oppfattes mildere. Testen prøver å speile dette.</p>
+        <p>Menn har også lettere for å forbanne andre (faen ta deg!), mens kvinner har lettere for å forbanne seg selv: (faen, så dum jeg var!)</p>
+        <p>Når det gjelder geografisk plassering, tar spillet utgangspunkt i ord og uttrykk som er knyttet til bestemte landsdeler for å si noe om hvor i landet du bor – eventuelt hvor du burde flytte? Til slutt har vi beregnet alder ut fra ordvalg. Så hvis du i fullt alvor sier <em>fordømt</em> og <em>nei, gosh!</em>, ja, da vet vi at du ikke er 20 år.</p>
 			</div>
 		);
 	}

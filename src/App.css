@@ -30,3 +30,7 @@
   font-family: 'Founders Grotesk Condensed';
   font-size: 14px;
 }
+.App .sharelink {
+  padding: 1em;
+  display: inline-block;
+}

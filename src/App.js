@@ -101,6 +101,7 @@ class App extends Component {
             sex={ this.sex() }
             edu={ this.edu() } />
           <button onClick={ this.init }>Begynn på nytt</button>
+          <a className="sharelink" href="https://facebook.com/share.php?u=https://morgenbladet.no/bannetesten">Del på Facebook</a>
         </div>
       );
     } else {
