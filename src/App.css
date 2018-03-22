@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   font-family: 'Mercury Ssm A', 'Mercury Text G2', 'Georgia', serif;
+  border: 2px solid rgba(207, 16, 16, 0.5);
+  padding: 1em;
 }
 
 .App button {
@@ -11,7 +13,7 @@
   padding: 1em;
   font-family: 'Founders Grotesk Condensed';
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 22px;
   box-shadow: 2px 2px 5px black;
 }
 .App button:hover {
