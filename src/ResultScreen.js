@@ -169,7 +169,7 @@ class ResultScreen extends Component {
 		return(
 			<div className="ResultScreen">
         <h1>Du ble { this.getName() }</h1>
-				<p>Du banner som en { results }</p>
+				<p>Du banner som { results }</p>
         <hr/>
         <p>Gratulerer! Nå har banningen fortalt deg hvem du er – i tilfelle du ikke visste det fra før. Slik har vi kommet frem til resultatet:</p>
         <p>Bannetesten bruker data fra banneforskningen til å beregne kjønn, og her er det tydelige forskjeller. Grovt sett kan vi si at menn banner grovere enn kvinner. De bruker flere kjønnsuttrykk og har lettere for å ty til det vi gjerne oppfatter som stygge ord, slik som <em>faen</em> og <em>helvete</em>. Kvinner, derimot, velger oftere <em>herregud</em>, <em>gudameg</em> og andre ord som jevnt over oppfattes mildere. Testen prøver å speile dette.</p>
