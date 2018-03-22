@@ -31,6 +31,8 @@
   font-size: 14px;
 }
 .App .sharelink {
-  padding: 1em;
+  padding: 2em;
   display: inline-block;
+  box-shadow: none;
+  border-bottom: 2px solid #cf1616;
 }
