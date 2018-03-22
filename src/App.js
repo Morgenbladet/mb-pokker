@@ -67,7 +67,8 @@ class App extends Component {
 
   average(arr) {
     if (arr.length > 0) {
-      return(arr.reduce((p, c) => p + c, 0) / arr.length);
+      var filtered = arr.filter(entry => entry != null);
+      return(filtered.reduce((p, c) => p + c, 0) / filtered.length);
     } else {
       return(null);
     }
