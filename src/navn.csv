@@ -1,0 +1,73 @@
+Region,Status,Kjønn,Alder,Navn
+Sørlandet,Høy,M,Ung,Lucas Leiv
+Sørlandet,Høy,M,Gammel,Ruben
+Sørlandet,Høy,K,Ung,Sunniva
+Sørlandet,Høy,K,Gammel,Bassa
+Sørlandet,Lav,M,Ung,Markus Matteus
+Sørlandet,Lav,M,Gammel,Midle Moses
+Sørlandet,Lav,K,Ung,Mimi Michelle
+Sørlandet,Lav,K,Gammel,Mette-Marie
+Rogaland,Høy,M,Ung,Torbjørn
+Rogaland,Høy,M,Gammel,Kjell
+Rogaland,Høy,K,Ung,May-Idun
+Rogaland,Høy,K,Gammel,Annemor
+Rogaland,Lav,M,Ung,Kimmy
+Rogaland,Lav,M,Gammel,Kent-Benny
+Rogaland,Lav,K,Ung,Marlene
+Rogaland,Lav,K,Gammel,Sivvi
+Oslo,Høy,M,Ung,Preben Alexander jr.
+Oslo,Høy,M,Gammel,Leopold Alexander
+Oslo,Høy,K,Ung,Anine Madeleine
+Oslo,Høy,K,Gammel,Sonia Victoria
+Oslo,Lav,M,Ung,Joffa
+Oslo,Lav,M,Gammel,Frank
+Oslo,Lav,K,Ung,Chanette
+Oslo,Lav,K,Gammel,Doris
+Østfold,Høy,M,Ung,Alexander
+Østfold,Høy,M,Gammel,Ørnulf
+Østfold,Høy,K,Ung,Sofie-Marie
+Østfold,Høy,K,Gammel,Kirsti-Marie
+Østfold,Lav,M,Ung,Roy-André
+Østfold,Lav,M,Gammel,Glenn-Roar
+Østfold,Lav,K,Ung,Michelle
+Østfold,Lav,K,Gammel,Randi-Marie
+Innlandet,Høy,M,Ung,Iver
+Innlandet,Høy,M,Gammel,Erik
+Innlandet,Høy,K,Ung,Hanne
+Innlandet,Høy,K,Gammel,Tove
+Innlandet,Lav,M,Ung,Glenn-Ken
+Innlandet,Lav,M,Gammel,Reidar
+Innlandet,Lav,K,Ung,Kine-Jeanette
+Innlandet,Lav,K,Gammel,Rita
+Bergen,Høy,M,Ung,William
+Bergen,Høy,M,Gammel,Jon-Frederik
+Bergen,Høy,K,Ung,Amalie
+Bergen,Høy,K,Gammel,Trude Katarina
+Bergen,Lav,M,Ung,Frode-Kyrre
+Bergen,Lav,M,Gammel,Davy
+Bergen,Lav,K,Ung,Caro
+Bergen,Lav,K,Gammel,Siw-Renate
+Nordre vestlandet,Høy,M,Ung,Sveinung
+Nordre vestlandet,Høy,M,Gammel,Gregorius
+Nordre vestlandet,Høy,K,Ung,Bergljot
+Nordre vestlandet,Høy,K,Gammel,Borghilde
+Nordre vestlandet,Lav,M,Ung,Alf-Ronny
+Nordre vestlandet,Lav,M,Gammel,Åge-Roy
+Nordre vestlandet,Lav,K,Ung,Sylvi
+Nordre vestlandet,Lav,K,Gammel,Hildegunn
+Trøndelag,Høy,M,Ung,Gabriel
+Trøndelag,Høy,M,Gammel,Robb
+Trøndelag,Høy,K,Ung,Ingvild
+Trøndelag,Høy,K,Gammel,Inger Randi
+Trøndelag,Lav,M,Ung,Steffen
+Trøndelag,Lav,M,Gammel,Åge-Aleksander
+Trøndelag,Lav,K,Ung,Angelica
+Trøndelag,Lav,K,Gammel,Ann-Gøril
+Nord-Norge,Høy,M,Ung,Roy Egil
+Nord-Norge,Høy,M,Gammel,Mareno
+Nord-Norge,Høy,K,Ung,Gjertine
+Nord-Norge,Høy,K,Gammel,Gorine
+Nord-Norge,Lav,M,Ung,Steve-Remi
+Nord-Norge,Lav,M,Gammel,Kent-Arne
+Nord-Norge,Lav,K,Ung,Tia Maria
+Nord-Norge,Lav,K,Gammel,Rullegardina

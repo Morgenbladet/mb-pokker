@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import shuffleArray from './shuffle_array.js';
 import geo_definitions from './geo_definitions.json';
 import edu_defs from './edu_definitions.json';
+import navn from './navn.csv';
 
 class ResultScreen extends Component {
 	constructor(props) {
@@ -11,6 +12,12 @@ class ResultScreen extends Component {
 		this.sex = this.sex.bind(this);
 		this.geo = this.geo.bind(this);
 		this.edu = this.edu.bind(this);
+
+		this.normalise_age = this.normalise_age.bind(this);
+		this.normalise_sex = this.normalise_sex.bind(this);
+		this.normaliseGeo = this.normalise_geo.bind(this);
+		this.normalise_edu = this.normalise_edu.bind(this);
+		this.getName = this.getName.bind(this);
 	}
 
 	// Measures the distance between points q and p, where q and p are vectors
@@ -38,7 +45,7 @@ class ResultScreen extends Component {
 		} else if (sex <= 40) {
 			return "myk mann";
 		} else if (sex <= 60) {
-			return "kjønnsløs robot";
+			return "en kjønnsløs robot";
 		} else {
 			return "kvinne";
 		}
@@ -69,6 +76,73 @@ class ResultScreen extends Component {
     return shuffleArray(alts)[0];
 	}
 
+  normalise_geo() {
+    let geo = Math.round(this.props.geo / 10.0);
+    switch(geo) {
+      case 0:
+        return("Sørlandet");
+      case 1:
+      case 2:
+        return("Rogaland");
+      case 3:
+        return("Oslo");
+      case 4:
+        return("Østfold");
+      case 5:
+        return("Innlandet");
+      case 6:
+      case 7:
+        return("Bergen");
+      case 8:
+        return("Nordre vestlandet");
+      case 9:
+        return("Trøndelag");
+      case 10:
+      default:
+        return("Nord-Norge");
+    }
+  }
+
+  normalise_edu() {
+    if (this.props.edu > 40) {
+      return("Høy");
+    } else {
+      return("Lav");
+    }
+  }
+
+  normalise_sex() {
+    if (this.props.sex < 50) {
+      return("M");
+    } else {
+      return("K");
+    }
+  }
+
+  normalise_age() {
+    if (this.props.age > 40) {
+      return("Gammel");
+    } else {
+      return("Ung");
+    }
+  }
+    
+  getName() {
+    let region = this.normalise_geo();
+    let stat = this.normalise_edu();
+    let sex = this.normalise_sex();
+    let age_group = this.normalise_age();
+
+    let chosen = navn.find((candidate) =>
+      candidate.Region === region &&
+        candidate.Status === stat &&
+        candidate.Kjønn === sex &&
+        candidate.Alder === age_group
+    );
+
+    return(chosen.Navn);
+  }
+
 	render() {
 		function Result(props) {
 			return (
@@ -89,7 +163,7 @@ class ResultScreen extends Component {
 		]
 		return(
 			<div className="ResultScreen">
-        <h1>Dette er deg</h1>
+        <h1>Du ble { this.getName() }</h1>
 				<p>Du banner som en { results }</p>
 			</div>
 		);
