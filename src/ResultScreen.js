@@ -23,7 +23,7 @@ class ResultScreen extends Component {
 	}
 
 	age() {
-		return this.props.age;
+		return Math.round(this.props.age);
 	}
 
 	sex() {
