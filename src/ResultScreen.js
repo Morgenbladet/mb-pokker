@@ -3,6 +3,7 @@ import shuffleArray from './shuffle_array.js';
 import geo_definitions from './geo_definitions.json';
 import edu_defs from './edu_definitions.json';
 import navn from './navn.csv';
+import scrollIntoViewIfNeeded from 'scroll-into-view-if-needed';
 
 class ResultScreen extends Component {
 	constructor(props) {
@@ -35,6 +36,10 @@ class ResultScreen extends Component {
 	age() {
 		return Math.round(this.props.age);
 	}
+
+  componentDidMount() {
+    scrollIntoViewIfNeeded(document.getElementById("Apptop"), { duration: 100 });
+  }
 
 	sex() {
 		let sex = this.props.sex;
