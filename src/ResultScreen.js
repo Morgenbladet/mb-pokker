@@ -90,7 +90,7 @@ class ResultScreen extends Component {
 		return(
 			<div className="ResultScreen">
         <h1>Dette er deg</h1>
-				<p>Du banner som en { results }.</p>
+				<p>Du banner som en { results }</p>
 			</div>
 		);
 	}
