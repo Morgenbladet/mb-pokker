@@ -19,6 +19,13 @@
         "sex": 40
       },
       {
+        "text": "Saaaatan!",
+        "age": 45,
+        "geo": null,
+        "edu": null,
+        "sex": 40
+      },
+      {
         "text": "Gudameg! Svartoren har så mye sevje!",
         "age": 40,
         "geo": null,
@@ -194,6 +201,13 @@
         "sex": null
       },
       {
+        "text": "Satans forbannede mannskjithelvete.",
+        "age": 40,
+        "geo": 100,
+        "edu": null,
+        "sex": 30
+      },
+      {
         "text": "Fuck. Skal vi se …",
         "age": 30,
         "geo": null,
@@ -255,7 +269,15 @@
         "geo": null,
         "edu": 100,
         "sex": 70
+      },
+      {
+        "text": "Jeg snakker da for helvete ikke om følelser!",
+        "age": 45,
+        "geo": null,
+        "edu": null,
+        "sex": 0
       }
+
     ]
   },
   {
@@ -520,14 +542,14 @@
         "age": null,
         "geo": null,
         "edu": null,
-        "sex": 60
+        "sex": 70
       },
       {
         "text": "Kan du ikke bare bli med ut, da, for faen?",
         "age": null,
         "geo": null,
         "edu": null,
-        "sex": 40
+        "sex": 30
       }
     ]
   }
